@@ -1,0 +1,71 @@
+name: Validate Agent Configuration
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check agent file structure
+        run: |
+          if [ ! -f ".github/copilot/agents/bac-fr.agent.md" ]; then
+            echo "❌ Agent file not found"
+            exit 1
+          fi
+          echo "✅ Agent file found"
+
+      - name: Validate YAML frontmatter
+        run: |
+          python3 << 'EOF'
+          import yaml
+          import sys
+
+          with open('.github/copilot/agents/bac-fr.agent.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+              if content.startswith('---'):
+                  parts = content.split('---')
+                  if len(parts) >= 3:
+                      try:
+                          yaml.safe_load(parts[1])
+                          print("✅ YAML frontmatter is valid")
+                      except yaml.YAMLError as e:
+                          print(f"❌ YAML frontmatter is invalid: {e}")
+                          sys.exit(1)
+                  else:
+                      print("❌ Invalid frontmatter structure")
+                      sys.exit(1)
+              else:
+                  print("⚠️  No YAML frontmatter found")
+          EOF
+
+      - name: Check required files
+        run: |
+          files=(
+            ".github/copilot/agents/methode_expli_texte.md"
+            ".github/copilot/agents/docs/manon_lescaut_premiere_rencontre.md"
+            "README.md"
+            "LICENSE"
+            ".gitignore"
+          )
+
+          for file in "${files[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "❌ Missing file: $file"
+              exit 1
+            fi
+          done
+          echo "✅ All required files present"
+
+      - name: Check examples structure
+        run: |
+          if [ ! -d "examples/input" ] || [ ! -d "examples/output" ]; then
+            echo "❌ Examples directory structure is incomplete"
+            exit 1
+          fi
+          echo "✅ Examples directory structure is correct"
