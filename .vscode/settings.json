@@ -1,6 +1,7 @@
 {
   "github.copilot.chat.localeOverride": "fr",
   "github.copilot.chat.welcomeMessage": "never",
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
   "files.associations": {
     "*.agent.md": "markdown"
   },

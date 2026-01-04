@@ -5,7 +5,7 @@
 1. Ouvrez ce fichier dans VS Code
 2. Sélectionnez le texte ci-dessous
 3. Ouvrez GitHub Copilot Chat (Cmd+Shift+I)
-4. Tapez : `@Bac-de-Francais Explique ce texte en appliquant la méthodologie de l'explication linéaire`
+4. Tapez : `@BacDeFrancais Explique ce texte en appliquant la méthodologie de l'explication linéaire`
 
 ## Texte de test (Victor Hugo, Les Contemplations, 1856)
 
