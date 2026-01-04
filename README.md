@@ -41,16 +41,27 @@ code .
 
 ## 📖 Utilisation
 
-### Commande `/expliquer`
+### Dans VS Code
 
 1. Ouvrez un fichier texte contenant l'extrait à analyser
-2. Sélectionnez le texte
+2. Sélectionnez le texte à analyser
 3. Ouvrez GitHub Copilot Chat (`Ctrl+Shift+I` ou `Cmd+Shift+I`)
-4. Tapez `@bac-fr /expliquer`
+4. Tapez `@Bac-de-Francais` suivi de votre demande, par exemple :
+   - `@Bac-de-Francais Explique ce texte en appliquant la méthodologie de l'explication linéaire`
+   - `@Bac-de-Francais Propose une analyse complète avec introduction, développement et conclusion`
 
-### Exemple
+### Documentation complète
 
-Voir le dossier [`examples/`](examples/) pour des exemples d'utilisation.
+📘 Consultez le [Guide d'utilisation détaillé](GUIDE_UTILISATION.md) pour :
+
+- Vérifier l'installation
+- Découvrir toutes les façons d'utiliser l'agent
+- Résoudre les problèmes courants
+- Obtenir des astuces et conseils
+
+### Exemple rapide
+
+Voir le fichier [`TEST.md`](TEST.md) pour tester l'agent rapidement, ou le dossier [`examples/`](examples/) pour des exemples d'utilisation complets.
 
 ## 🎯 Méthodologie
 

@@ -1,0 +1,16 @@
+{
+  "github.copilot.chat.localeOverride": "fr",
+  "github.copilot.chat.welcomeMessage": "never",
+  "files.associations": {
+    "*.agent.md": "markdown"
+  },
+  "editor.wordWrap": "on",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
