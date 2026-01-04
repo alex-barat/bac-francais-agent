@@ -104,7 +104,7 @@ description: Agent expert pour l'explication de texte linéaire...
 
 **Changements** :
 
-- ✅ Correction des instructions d'utilisation (plus de `/expliquer`, utiliser `@Bac-de-Francais`)
+- ✅ Correction des instructions d'utilisation (plus de `/expliquer`, utiliser `@BacDeFrancais`)
 - ✅ Ajout de liens vers la documentation complète
 - ✅ Références au guide d'utilisation et au fichier de test
 
@@ -140,22 +140,22 @@ agent-fr/
 
 1. **Ouvrir GitHub Copilot Chat** : `Cmd+Shift+I` (macOS)
 
-2. **Appeler l'agent** : Taper `@` et sélectionner `@Bac-de-Francais`
+2. **Appeler l'agent** : Taper `@` et sélectionner `@BacDeFrancais`
 
 3. **Exemple d'utilisation** :
    ```
-   @Bac-de-Francais Explique ce texte en appliquant la méthodologie
+   @BacDeFrancais Explique ce texte en appliquant la méthodologie
    de l'explication linéaire
    ```
 
 ### Différences avec avant
 
-| Avant                            | Après                              |
-| -------------------------------- | ---------------------------------- |
-| `@bac-fr /expliquer`             | `@Bac-de-Francais` + votre demande |
-| Slash commands                   | Conversation naturelle             |
-| Références externes aux fichiers | Tout intégré dans l'agent          |
-| Erreurs de syntaxe               | Plus d'erreurs                     |
+| Avant                            | Après                            |
+| -------------------------------- | -------------------------------- |
+| `@bac-fr /expliquer`             | `@BacDeFrancais` + votre demande |
+| Slash commands                   | Conversation naturelle           |
+| Références externes aux fichiers | Tout intégré dans l'agent        |
+| Erreurs de syntaxe               | Plus d'erreurs                   |
 
 ## Vérification
 
@@ -172,7 +172,7 @@ Pour vérifier que tout fonctionne :
 
    - Ouvrir le chat Copilot
    - Taper `@`
-   - Vérifier que `@Bac-de-Francais` est dans la liste
+   - Vérifier que `@BacDeFrancais` est dans la liste
 
 3. ✅ Suivre la checklist dans `VERIFICATION.md`
 

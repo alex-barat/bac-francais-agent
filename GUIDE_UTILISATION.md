@@ -9,7 +9,7 @@ Cet agent GitHub Copilot vous aide à réaliser des explications de texte linéa
 1. **Vérifiez que l'agent est détecté** :
 
    - Ouvrez GitHub Copilot Chat dans VS Code (`Cmd+Shift+I` sur macOS)
-   - Tapez `@` et vous devriez voir apparaître `@Bac-de-Francais` dans la liste des agents disponibles
+   - Tapez `@` et vous devriez voir apparaître `@BacDeFrancais` dans la liste des agents disponibles
 
 2. **Si l'agent n'apparaît pas** :
    - Vérifiez que le fichier `.github/copilot/agents/bac-fr.agent.md` existe
@@ -27,7 +27,7 @@ Cet agent GitHub Copilot vous aide à réaliser des explications de texte linéa
 5. Tapez votre demande en mentionnant l'agent :
 
 ```
-@Bac-de-Francais Explique ce texte de [Auteur], [Titre de l'œuvre], [Date], en appliquant la méthodologie de l'explication linéaire. Le texte appartient au parcours [nom du parcours].
+@BacDeFrancais Explique ce texte de [Auteur], [Titre de l'œuvre], [Date], en appliquant la méthodologie de l'explication linéaire. Le texte appartient au parcours [nom du parcours].
 ```
 
 ### Méthode 2 : Demande d'aide sur la méthodologie
@@ -35,11 +35,11 @@ Cet agent GitHub Copilot vous aide à réaliser des explications de texte linéa
 Vous pouvez aussi demander de l'aide sur des points spécifiques :
 
 ```
-@Bac-de-Francais Comment rédiger une bonne accroche pour une explication de texte du XVIIIe siècle ?
+@BacDeFrancais Comment rédiger une bonne accroche pour une explication de texte du XVIIIe siècle ?
 ```
 
 ```
-@Bac-de-Francais Quels sont les procédés littéraires typiques de la poésie romantique ?
+@BacDeFrancais Quels sont les procédés littéraires typiques de la poésie romantique ?
 ```
 
 ### Méthode 3 : Révision et amélioration
@@ -47,7 +47,7 @@ Vous pouvez aussi demander de l'aide sur des points spécifiques :
 Si vous avez déjà rédigé une explication, vous pouvez demander à l'agent de l'améliorer :
 
 ```
-@Bac-de-Francais Améliore cette introduction en la rendant plus conforme à la méthodologie du bac :
+@BacDeFrancais Améliore cette introduction en la rendant plus conforme à la méthodologie du bac :
 [Votre texte]
 ```
 
@@ -67,7 +67,7 @@ Pour obtenir la meilleure analyse possible, précisez :
 ### Exemple de demande complète
 
 ```
-@Bac-de-Francais Analyse cet extrait de Manon Lescaut de l'abbé Prévost (1731).
+@BacDeFrancais Analyse cet extrait de Manon Lescaut de l'abbé Prévost (1731).
 Il s'agit de la première rencontre entre Des Grieux et Manon.
 Parcours : personnages en marge, plaisirs du romanesque.
 
@@ -114,7 +114,7 @@ Vous pouvez aussi utiliser le fichier `TEST.md` à la racine du projet pour test
 
 ### L'agent ne répond pas correctement
 
-- Vérifiez que vous avez bien mentionné `@Bac-de-Francais` dans votre message
+- Vérifiez que vous avez bien mentionné `@BacDeFrancais` dans votre message
 - Assurez-vous que le texte est sélectionné avant d'envoyer la demande
 - Fournissez plus de contexte (auteur, date, mouvement littéraire)
 

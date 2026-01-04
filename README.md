@@ -46,9 +46,9 @@ code .
 1. Ouvrez un fichier texte contenant l'extrait à analyser
 2. Sélectionnez le texte à analyser
 3. Ouvrez GitHub Copilot Chat (`Ctrl+Shift+I` ou `Cmd+Shift+I`)
-4. Tapez `@Bac-de-Francais` suivi de votre demande, par exemple :
-   - `@Bac-de-Francais Explique ce texte en appliquant la méthodologie de l'explication linéaire`
-   - `@Bac-de-Francais Propose une analyse complète avec introduction, développement et conclusion`
+4. Tapez `@BacDeFrancais` suivi de votre demande, par exemple :
+   - `@BacDeFrancais Explique ce texte en appliquant la méthodologie de l'explication linéaire`
+   - `@BacDeFrancais Propose une analyse complète avec introduction, développement et conclusion`
 
 ### Documentation complète
 

@@ -75,7 +75,7 @@ git commit -m "chore: Configuration VS Code optimisée"
 git add README.md
 git commit -m "docs: Mise à jour des instructions d'utilisation
 
-- Correction des commandes (@Bac-de-Francais au lieu de @bac-fr /expliquer)
+- Correction des commandes (@BacDeFrancais au lieu de @bac-fr /expliquer)
 - Ajout de liens vers la documentation"
 
 # 5. Autres modifications
@@ -113,7 +113,7 @@ Documentation ajoutée :
 
 Utilisation :
 Avant : @bac-fr /expliquer
-Après : @Bac-de-Francais + votre demande
+Après : @BacDeFrancais + votre demande
 
 L'agent fonctionne maintenant correctement dans GitHub Copilot Chat (VS Code).
 ```
@@ -145,7 +145,7 @@ cat .github/copilot/agents/bac-fr.agent.md | head -10
    - Ouvrez VS Code
    - Rechargez la fenêtre : `Cmd+Shift+P` → "Developer: Reload Window"
    - Ouvrez le chat Copilot : `Cmd+Shift+I`
-   - Tapez `@` et vérifiez que `@Bac-de-Francais` apparaît
+   - Tapez `@` et vérifiez que `@BacDeFrancais` apparaît
 
 3. **Suivre la vérification** : Utilisez `VERIFICATION.md` pour une vérification complète
 

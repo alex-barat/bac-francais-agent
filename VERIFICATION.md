@@ -16,7 +16,7 @@
 
    - Raccourci : `Cmd+Shift+I` (macOS) ou `Ctrl+Shift+I` (Windows/Linux)
 
-2. Dans le chat, tapez `@` et vérifiez que `@Bac-de-Francais` apparaît dans la liste
+2. Dans le chat, tapez `@` et vérifiez que `@BacDeFrancais` apparaît dans la liste
 
 3. Si l'agent n'apparaît pas :
    - Rechargez VS Code : `Cmd+Shift+P` → "Developer: Reload Window"
@@ -31,7 +31,7 @@
 4. Tapez exactement :
 
 ```
-@Bac-de-Francais Explique ce texte en appliquant la méthodologie de l'explication linéaire.
+@BacDeFrancais Explique ce texte en appliquant la méthodologie de l'explication linéaire.
 C'est un poème de Victor Hugo, "Demain dès l'aube" extrait des Contemplations (1856),
 parcours "Les Mémoires d'une âme".
 ```
@@ -50,7 +50,7 @@ parcours "Les Mémoires d'une âme".
 3. Tapez :
 
 ```
-@Bac-de-Francais Analyse cet extrait de Manon Lescaut de l'abbé Prévost (1731).
+@BacDeFrancais Analyse cet extrait de Manon Lescaut de l'abbé Prévost (1731).
 Il s'agit de la première rencontre entre Des Grieux et Manon.
 ```
 
@@ -63,7 +63,7 @@ Il s'agit de la première rencontre entre Des Grieux et Manon.
 Demandez à l'agent :
 
 ```
-@Bac-de-Francais Explique-moi comment rédiger une bonne problématique pour une explication de texte
+@BacDeFrancais Explique-moi comment rédiger une bonne problématique pour une explication de texte
 ```
 
 #### Test de correction
@@ -71,7 +71,7 @@ Demandez à l'agent :
 Envoyez une introduction mal rédigée et demandez :
 
 ```
-@Bac-de-Francais Améliore cette introduction en la rendant conforme à la méthodologie du bac :
+@BacDeFrancais Améliore cette introduction en la rendant conforme à la méthodologie du bac :
 
 Au 19e siècle, Victor Hugo écrit des poèmes. Ce texte parle de sa fille.
 C'est triste. Je vais analyser le texte.
@@ -80,7 +80,7 @@ C'est triste. Je vais analyser le texte.
 #### Test sur des procédés
 
 ```
-@Bac-de-Francais Quels sont les procédés littéraires typiques de la poésie romantique ?
+@BacDeFrancais Quels sont les procédés littéraires typiques de la poésie romantique ?
 ```
 
 ## ❌ Problèmes courants et solutions
@@ -131,7 +131,7 @@ description: Agent expert pour...
 **Solution** : Demander explicitement plus de détails
 
 ```
-@Bac-de-Francais Développe davantage le mouvement 2 en ajoutant plus de procédés
+@BacDeFrancais Développe davantage le mouvement 2 en ajoutant plus de procédés
 littéraires et d'interprétations
 ```
 
@@ -162,7 +162,7 @@ L'agent fonctionne correctement si :
 
 ## 📝 Notes de test
 
-Date du test : ****\_\_\_****
+Date du test : \***\*\_\_\_\*\***
 
 Résultat :
 
